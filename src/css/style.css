@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Prata&display=swap');
+
+:root{
+    --color-primary: #000;
+    --color-secondary: #133416;
+    --color-third: #80a8cc;
+    --color-fourth: #f6b201;
+    --color-white: #fff;
+    --color-gray: #6d6d6d;
+    --color-muted: #888785;
+    --color-dark: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 0.88rem;
+    background: var(--color-primary) !important;
+    user-select: none;
+    overflow-x: hidden;
+}
+.navbar-brand{
+    color: white !important;
+    font-family: 'Prata', serif !important;
+}
+.nav-link{
+    color: var(--color-muted) !important; 
+    font-size: 1.3rem !important;
+    padding: 1rem !important;
+}
+.btn-primary{
+    --bs-btn-bg: #fbe850 !important;
+    --bs-btn-color: black !important;
+
+}
+.btn{
+    border: 0 !important;
+    border-radius: 0 !important;
+    font-family: 'Prata', serif !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    font-size: 1.3rem !important;
+}
+.navbar-toggler{
+    border: 0 !important;
+    color: white !important;
+}
+.navbar-toggler-icon{
+    background-image: url(../../Assets/Hamburger\ Menu.svg) !important;
+}
+h1{
+    color: white !important;
+    font-size: 4.5rem !important;
+    font-family: 'Prata', serif !important;
+}
+p{
+    color: var(--color-muted) !important;
+    font-size: 1.6rem;
+}
+.card{
+    --bs-card-bg: transparent !important;
+}
+.title-cd h2{
+    color: white !important;
+    font-family: 'Prata', serif !important;
+    padding: 1.8rem !important;
+    font-size: 2.4rem !important;
+}
+h2{
+    color: white !important;
+    font-family: 'Prata', serif !important;
+    font-size: 3rem !important;
+
+}
+#desc{
+    padding-top: 3rem;
+    background: #2e3038 !important;
+    padding-bottom: 3rem;
+
+}
+#desc2{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#desc3{
+    background: #2e3038 !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#desc3 a{
+    font-size: 1.4rem !important;
+}
+#desc .row .col p{
+    padding-bottom: 1.4rem;
+}
