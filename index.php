@@ -157,7 +157,7 @@
    <!------------------------------------------->
    <div class="container-fluid" id="desc3">
         <div class="container" id="desc3">
-                 <a class="navbar-brand" href="#">JohnathanSpecter</a>
+                 <a class="navbar-brand" href="https://github.com/MABDesigns" target="_blank">Created By <strong>MABDesigns</a>
                 
                         <div class="float-end">
                             <img src="Assets/Social Icons/Twitter.svg">
